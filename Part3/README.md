@@ -17,7 +17,7 @@ When answering the questions, remember to use all the resources at your disposal
  
  ### Does creating concurrent programs make the programmer's life easier? Harder? Maybe both?
  (Come back to this after you have worked on part 4 of this exercise)
- > *Your answer here*
+ > it makes your life harder, because the programs become more complicated.
  
  ### What are the differences between processes, threads, green threads, and coroutines?
  > tgreads are the smallest possible instruction set that can be managed independently. A process is the combination of computer code and the activity of a computer program being executed. Green threads can be seen as user made threads that are managed by an ordenary process, instead of by the operating system. Coroutines are functions that can be paused and started before returning. This means that when two or more functions have a coroutine, one function can affect the other function without returning to it.
