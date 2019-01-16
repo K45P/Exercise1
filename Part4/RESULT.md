@@ -1,0 +1,1 @@
+The result is not correct. It may be because there is no control to wait for the completion of a goroutine, one routine may corrupt the memory of the other routine. This causes that a variable being written to, may not be visible to all threads.
